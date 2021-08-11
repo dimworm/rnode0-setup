@@ -28,7 +28,7 @@ services:
       -XX:MaxDirectMemorySize=200m
       -XX:MaxRAMPercentage=65
       run
-      -s
+      --standalone
       --host $HOST_IP
       --no-upnp
       --network-id nnx001

@@ -4,7 +4,7 @@
 apt update && apt install -y git
 
 # Download RNode setup repo
-git clone https://github.com/dimworm/rnode-setup.git /root/rchain
+git clone https://github.com/dimworm/rnode0-setup.git /root/rchain
 
 # Change directory to setup repo
 cd /root/rchain
